@@ -1,0 +1,19 @@
+body {
+	font-family: 'Playfair Display';
+}
+a{
+	display: block;
+	background-color: yellow;
+}
+span{
+	background-color: pink;
+	width: 100px;
+	height: 100px;
+}
+.none{
+	display: none;
+}
+#unspanINLINEBLOCK{
+display: inline-block;
+}
+

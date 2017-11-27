@@ -1,0 +1,14 @@
+body {
+	font-family: 'Playfair Display';
+}
+#Primero{
+	background-color: cyan;
+}
+#Tercero{
+	background-color: pink;
+}
+span{
+	background-color: pink;
+	width: 100px;
+	height: 100px;
+}
