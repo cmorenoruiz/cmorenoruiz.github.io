@@ -4,5 +4,7 @@ section img {
 }
 section {
   background-color:gray;
-  overflow:auto;
+}
+.clearflot {
+  clear:both;
 }
