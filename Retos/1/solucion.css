@@ -1,0 +1,21 @@
+
+
+body{
+	background-color:yellow;
+	height: 100%;
+	position:relative;
+}
+
+.tabla{
+	position:fixed;
+	top:50%;
+	left:50%
+	width:200px;
+}
+
+.celda{
+	background-color: blue;
+	color: white;
+}
+
+	
