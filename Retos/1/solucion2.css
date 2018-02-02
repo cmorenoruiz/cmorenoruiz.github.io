@@ -1,0 +1,29 @@
+
+
+body{
+	background-color:yellow;
+	height: device-height;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.tabla{
+	
+	
+	height:50%;
+	
+	width:50%;
+}
+
+.celda{
+	background-color: blue;
+	color: white;
+
+}
+h3{
+	margin: auto;
+}
+
+	
