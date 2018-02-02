@@ -1,20 +1,21 @@
-
+html, body:{
+	margin 0px;
+	height: 100%}
 
 body{
 	background-color:yellow;
-	height: device-height;
-	
-	display:flex;
-	justify-content:center;
-	align-items:center;
+	border:solid blue;
+
 }
 
 .tabla{
-	
-	
-	height:50%;
-	
-	width:50%;
+	border:solid red;
+	min-height: 1vh;
+	width 100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
 }
 
 .celda{
