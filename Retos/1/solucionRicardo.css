@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+	background-color:yellow;
+}
+
+.tabla{
+	border:solid red;
+}
+
+.celda{
+	background-color: blue;
+    color: white;
+    widows: 50%;
+
+}
+h3{
+	margin: auto;
+}
+.tabla{
+
+/*	al contendor le tengo que decir
+
+	antes de nada que sea flexible*/
+
+	display: flex;
+
+
+
+/*	le determino un alto para que sepa
+
+	dónde centrarse*/
+
+	height : 100vh;
+
+
+
+/*	le digo que tome 
+
+	como eje primcipal el horizontal
+
+	pero daría igual ya que es un elemento único*/
+
+	flex-direction: column;
+
+
+
+/*aqui el parámetros de alineamiento */
+
+	justify-content:center;
+
+
+
+
+
+}

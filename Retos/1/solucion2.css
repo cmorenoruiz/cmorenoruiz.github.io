@@ -1,17 +1,11 @@
-html, body:{
-	margin 0px;
-	height: 100%}
-
 body{
+    margin: 0px;
 	background-color:yellow;
-	border:solid blue;
-
 }
 
 .tabla{
 	border:solid red;
-	min-height: 1vh;
-	width 100%;
+	height: 100vh;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -20,6 +14,7 @@ body{
 
 .celda{
 	background-color: blue;
+    width: 50%;
 	color: white;
 
 }
