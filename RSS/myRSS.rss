@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>GitHub de Cristina Moreno Ruiz</title>
+  <link>https://www.w3schools.com</link>
+  <description>Esta página es para aprender a utilizar Git y tener disponibles recursos o materiales que voy generando, sin depender de un hosting gratuito con limitaciones de horarios o tráfico.</description>
+  <item>
+    <title>Página principal</title>
+    <link>https://cmorenoruiz.github.io/index.html</link>
+    <description>Página principal de mi GitHub</description>
+  </item>
+  <item>
+    <title>Plantilla HTML y CSS</title>
+    <link>https://cmorenoruiz.github.io/Ejemplos/0_Plantilla/ejemplo.html</link>
+    <description>Para trabajar en los retos. Si cambia, te avisará tu lector de RSS.</description>
+  </item>
+</channel>
+
+</rss>
