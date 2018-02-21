@@ -2,19 +2,32 @@
 <rss version="2.0">
 
 <channel>
-  <title>GitHub de Cristina Moreno Ruiz</title>
-  <link>https://www.w3schools.com</link>
-  <description>Esta página es para aprender a utilizar Git y tener disponibles recursos o materiales que voy generando, sin depender de un hosting gratuito con limitaciones de horarios o tráfico.</description>
-  <item>
-    <title>Página principal</title>
-    <guid>https://cmorenoruiz.github.io/index.html</guid>
-    <description>Página principal de mi GitHub</description>
-  </item>
-  <item>
-    <title>Plantilla HTML y CSS</title>
-    <guid>https://cmorenoruiz.github.io/Ejemplos/0_Plantilla/ejemplo.html</guid>
-    <description>Plantilla para trabajar en los retos.</description>
-  </item>
+	<title>GitHub de Cristina Moreno Ruiz</title>
+	<link>https://www.w3schools.com</link>
+	<description>Esta página es para aprender a utilizar Git y tener disponibles recursos o materiales que voy generando, sin depender de un hosting gratuito con limitaciones de horarios o tráfico.</description>
+	<language>es-es</language>
+
+	<!-- Se definen los distintos items del canal -->
+	
+	<item>
+		<title>Modelo tradicional</title>
+		<guid>https://cmorenoruiz.github.io/tradicional/Tradicional.html</guid>
+		<description>
+			Ejemplo de Marcombo añadido a mi RSS, para ver si los lectores me avisan de que hay un nuevo artículo.
+		</description>
+	</item>
+	<item>
+		<title>Página principal</title>
+		<guid>https://cmorenoruiz.github.io/index.html</guid>
+		<description>Página principal de mi GitHub</description>
+	</item>
+	<item>
+		<title>Plantilla HTML y CSS</title>
+		<guid>https://cmorenoruiz.github.io/Ejemplos/0_Plantilla/ejemplo.html</guid>
+		<description>
+			Plantilla para trabajar en los retos. He cambiado el texto de la descripción, para ver si el lector de RSS avisa de ello.
+		</description>
+	</item>
 </channel>
 
 </rss>
