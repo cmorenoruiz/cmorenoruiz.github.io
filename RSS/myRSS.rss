@@ -6,11 +6,6 @@
   <link>https://www.w3schools.com</link>
   <description>Esta página es para aprender a utilizar Git y tener disponibles recursos o materiales que voy generando, sin depender de un hosting gratuito con limitaciones de horarios o tráfico.</description>
   <item>
-    <title>Modelo tradicional</title>
-    <guid>https://cmorenoruiz.github.io/tradicional/Tradicional.html</guid>
-    <description>Ejemploo de Marcombo añadido a mi RSS pa aver si los lectores me avisan de que hay unnuevo artículo</description>
-  </item>
-  <item>
     <title>Página principal</title>
     <guid>https://cmorenoruiz.github.io/index.html</guid>
     <description>Página principal de mi GitHub</description>
@@ -18,7 +13,7 @@
   <item>
     <title>Plantilla HTML y CSS</title>
     <guid>https://cmorenoruiz.github.io/Ejemplos/0_Plantilla/ejemplo.html</guid>
-    <description>Para trabajar en los retos. Si cambia, te avisará tu lector de RSS.</description>
+    <description>Plantilla para trabajar en los retos.</description>
   </item>
 </channel>
 
