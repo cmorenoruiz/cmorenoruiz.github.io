@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Multimedia</title>
+  <meta name="author" content="Cristina Moreno Ruiz" >
+  <link rel="stylesheet" type="text/css" href="css/p2pmodulo2.css">
+  <!--Fuente de Google-->
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+</head>
+<body>
+	<article>
+		<h1>Página personal de Cristina Moreno Ruiz</h1>
+		<section>
+			<h2>Actividad obligatoria del Tema 2</h2>			
+			<p>En este ejercicio del <a href="https://miriadax.net/web/html5mooc/inicio"> curso MOOC sobre HTML5</a> de Miriadax, trabajaré con contenido multimedia</p>		
+			<p>Se piden las siguientes características</p>	
+			<ol>
+				<li>Uso de colores para texto y fondo, que lo aplico en esta sección, incluyendo al menos colores degradados en alguna de sus cajas. Esto he decidio aplicarlo en la segunda sección.</li>
+				<li>Inclusión de tipografías externas de Google Fonts, que la estás leyendo, Adobe Edge Web Fonts o un servicio similar on line.</li>
+				<li>Distintos encabezados.Cada sección se encabeza con un h2 y la página con un h1. Intentaré separar las imágenes con títulos de nivel h3</li>
+				<li>Uso de caracteres especiales. Por ejemplo los utilizados por HTML como marcas: &lt; o &gt;</li>
+				<li>Incluir, imágenes de tipo bitmap y vectorial.</li>	
+				<li>Incluir algún vídeo.</li>
+				<li>Incluir bordes redondeados en alguna de sus cajas. Aquí mismo.</li>
+				<li>La página debe comenzar con el siguiente encabezamiento:  “Página personal de "%lt;nombre y apellido del alumno&gt;”</li>
+			</ol>		
+		</section>
+		<section>
+			<h2>Segunda sección</h2>
+			<p>Aquí se aplicará el degradado, cuando lo consiga. Y utilizará un título &lt;h2&gt;. He incluido un alto del 33% a esta sección, para que pueda verse el gradiente. </p>		
+		</section>
+		<section>
+			<h2>Tercera sección</h2>
+			<p>Aquí se incluirá el contenido multimedia. Tengo que incluir imágenes de tipo bitmap y vectoriales, así como un vídeo.</p>
+			<picture>
+				<source media="(min-width:800px)" srcset="media/images/Sheep.svg"><!-- alt="oveja en formato svg, para poder aumentarla en pantallas grandes. autor: 	Michał Pecyna"-->
+				<source media="(min-width:500px)" srcset="media/images/Cologne_Germany_Flock-of-sheep-01.jpg"> <!--alt="rebaño de ovejas, autor 	CEphoto, Uwe Aranas"-->
+				<source media="(min-width:200px)" srcset="media/images/sheep_PNG2190.png"> <!--alt="tres ovejas, http://pngimg.com/download/2190"-->				
+				<source media="(min-width:100px)" srcset="media/images/2194356926_a5317f7f9d_m.jpg"> <!--alt="oveja de Anita Gould"-->
+				<img src="media/images/2194356926_a5317f7f9d_m.jpg" alt="oveja de Anita Gould">			
+			</picture>
+			<video src="media/videos/3895876666_sd.mp4" poster="media/images/Sheep.svg" controls> </video>
+			<!-- alt="video de oveja sacado de Flickr, autor Avi Bryant"-->
+			<p>También incluyo un vídeo incrutado de YouTube</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/F6JsvV0XSIQ?rel=0" allow="autoplay; encrypted-media">
+			</iframe>	
+		</section>
+		
+	</article>
+</body>
+</html>

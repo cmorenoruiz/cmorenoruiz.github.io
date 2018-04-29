@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Multimedia</title>
+  <meta name="author" content="Cristina Moreno Ruiz" >
+  <link rel="stylesheet" type="text/css" href="css/p2pmodulo2.css">
+</head>
+<body>
+	<article>
+		<h1>Página personal de Cristina Moreno Ruiz</h1>
+		<section>
+			<p>En este ejercicio trabajaré con contenido multimedia</p>		
+			<p>Se piden las siguientes características</p>	
+			<ol>
+				<li>Uso de colores para texto y fondo, incluyendo al menos colores degradados en alguna de sus cajas.</li>
+				<li>Inclusión de tipografías externas de Google Fonts, Adobe Edge Web Fonts o un servicio similar on line.
+	Distintos encabezados.</li>
+				<li>Uso de caracteres especiales. Por ejemplo los utilizados por HTML como marcas: &lt; o &gt;</li>
+				<li>Incluir, imágenes de tipo bitmap y vectorial.</li>	
+				<li>Incluir algún vídeo.</li>
+				<li>Incluir bordes redondeados en alguna de sus cajas.</li>
+				<li>La página debe comenzar con el siguiente encabezamiento:  “Página personal de <nombre y apellido del alumno>”</li>
+			</ol>		
+		</section>	
+	</article>
+</body>
+</html>
