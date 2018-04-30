@@ -32,11 +32,19 @@
 		</section>
 		<section>
 			<h2>Tercera sección</h2>
-			<p>Aquí se incluirá el contenido multimedia. Tengo que incluir imágenes de tipo bitmap y vectoriales, así como un vídeo.</p>
+			<p>Aquí se incluirá el contenido multimedia.</p>
+			<p>Tengo que incluir imágenes de tipo bitmap y vectoriales, así como un vídeo.</p>
+			<p>Enumero lo que verás y a qué ancho mínimo corresponde:</p>
+			<ul>
+				<li>Si ves una oveja blanca dibujada, es un dibujo vectorial y tiene un ancho mínimo de 800px</li>			
+				<li>Si ves un rebaño, es una archivo jpg y el ancho mínimo es de 500px</li>			
+				<li>Si ves tres ovejas, es un archivo png y tendrás un ancho mínimo de 200px</li>			
+				<li>Si ves un carnero amarillo, es un jpg con un ancho mínimo de 100px</li>						
+			</ul>			
 			<picture>
-				<source media="(min-width:800px)" srcset="media/images/Sheep.svg"><!-- alt="oveja en formato svg, para poder aumentarla en pantallas grandes. autor: 	Michał Pecyna"-->
-				<source media="(min-width:500px)" srcset="media/images/Cologne_Germany_Flock-of-sheep-01.jpg"> <!--alt="rebaño de ovejas, autor 	CEphoto, Uwe Aranas"-->
-				<source media="(min-width:200px)" srcset="media/images/sheep_PNG2190.png"> <!--alt="tres ovejas, http://pngimg.com/download/2190"-->				
+				<source media="(min-width:1000px)" srcset="media/images/Sheep.svg"><!-- alt="oveja en formato svg, para poder aumentarla en pantallas grandes. autor: 	Michał Pecyna"-->
+				<source media="(min-width:800px)" srcset="media/images/Cologne_Germany_Flock-of-sheep-01.jpg"> <!--alt="rebaño de ovejas, autor 	CEphoto, Uwe Aranas"-->
+				<source media="(min-width:300px)" srcset="media/images/sheep_PNG2190.png"> <!--alt="tres ovejas, http://pngimg.com/download/2190"-->				
 				<source media="(min-width:100px)" srcset="media/images/2194356926_a5317f7f9d_m.jpg"> <!--alt="oveja de Anita Gould"-->
 				<img src="media/images/2194356926_a5317f7f9d_m.jpg" alt="oveja de Anita Gould">			
 			</picture>
