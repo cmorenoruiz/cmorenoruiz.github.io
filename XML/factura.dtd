@@ -1,0 +1,39 @@
+<!-- estructura general fatura -->
+<!ELEMENT factura (datos_empresa, datos_cliente, datos_factura)>
+   <!ATTLIST factura n_fac ID #REQUIRED>
+<!-- definición de datos_empresa -->
+<!ELEMENT datos_empresa (nombre, direccion, poblacion, provincia, telefono, fax, cif)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT direccion (#PCDATA)>
+	<!ELEMENT poblacion (#PCDATA)>
+		<!ATTLIST poblacion cod_postal CDATA #IMPLIED>
+	<!ELEMENT provincia (#PCDATA)>
+	<!ELEMENT telefono EMPTY>
+		<!ATTLIST telefono numero CDATA #IMPLIED>
+	<!ELEMENT fax EMPTY>
+	<!ELEMENT cif (#PCDATA)>
+	
+<!-- definición de datos_cliente -->
+<!ELEMENT datos_cliente (nombre, direccion, poblacion, provincia, telefono?, fax?, tipo, pais?, nif)>
+   <!ATTLIST datos_cliente n_cli ID #REQUIRED>
+	<!ELEMENT tipo (#PCDATA)>
+		<!ATTLIST tipo nacional (si | no) "si">
+	<!ELEMENT pais (#PCDATA)>
+	<!ELEMENT nif (#PCDATA)>
+
+<!-- definición de datos_factura -->
+<!ELEMENT datos_factura (fecha, linea+, base, cuota_iva, total)>
+   <!ATTLIST datos_factura n_ped ID #REQUIRED>
+   <!ATTLIST datos_factura forma_pago (efectivo | transferencia | cheque) #REQUIRED>
+   <!ATTLIST datos_factura iva (18 | 0)  "18">
+   <!ATTLIST datos_factura moneda (euro | dolar) "euro">
+	<!ELEMENT fecha (#PCDATA)>
+	<!ELEMENT linea (ref, desc, cant, precio, importe)>
+		<!ELEMENT ref (#PCDATA)>
+		<!ELEMENT desc (#PCDATA)>
+		<!ELEMENT cant (#PCDATA)>
+		<!ELEMENT precio (#PCDATA)>
+		<!ELEMENT importe (#PCDATA)>
+	<!ELEMENT base (#PCDATA)>
+	<!ELEMENT cuota_iva (#PCDATA)>
+	<!ELEMENT total (#PCDATA)>
